@@ -19,8 +19,10 @@ class EntriesController < ApplicationController
   end
 
   def update
+    redirect_to entry_path(params[:id])
   end
 
   def destroy
+    redirect_to :index
   end
 end
