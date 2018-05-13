@@ -4,6 +4,7 @@ class EntriesController < ApplicationController
   end
 
   def create
+    redirect_to entries_path
   end
 
   def new
