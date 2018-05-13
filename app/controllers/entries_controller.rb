@@ -12,6 +12,7 @@ class EntriesController < ApplicationController
   end
 
   def edit
+    render :edit
   end
 
   def show
