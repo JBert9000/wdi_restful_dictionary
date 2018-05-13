@@ -7,6 +7,7 @@ class EntriesController < ApplicationController
   end
 
   def new
+    render :new
   end
 
   def edit
